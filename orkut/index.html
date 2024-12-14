@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orkut</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="orkut.png" alt="logo orkut">
+    </header>
+    <div class="container">
+        <div class="profile">
+            <img src="capa.jpg" alt="Capa do Perfil">
+            <img class="avatar" src="perfil.jpg" alt="Avatar do Usuário">
+            <h2>Diego Farias</h2>
+        </div>
+
+        <div class="postagens">
+            <h2>Postagens</h2>
+            <div class="postagem">
+                <h3>Diego Farias</h3>
+                <p>Ola, desenvolvi essa calculadora para universitarios da faculdade UNIVESP, utilizada por cerca de 1000 alunos durante as provas <a href="https://calculadoraunivesp.me">calculadoraunivesp.me</a></p>
+                <img src="calc.PNG" alt="calculadora univesp">
+            </div>
+            <div class="postagem">
+                <h3>Diego Farias</h3>
+                <p>Iai Pessoal, desenvolvi esse SAAS, que ainda não esta finalizado, mas as pessoas poderam publicar vagas de serviço freelancer, e trabalhadores entraram em contato, oque me falta para finalizar esse projeto é mais tempo, infelizmente só tenho 24 horas por dia kkkk, poderia ser 48 <a href="https://faztudo.x10.mx">faztudo.x10.mx</a></p>
+                <img src="faztudo.PNG" alt="Site faztudo">
+            </div>
+        </div>
+
+        <h2>Depoimentos</h2>
+        <div class="depoimentos" id="depoimentos">
+        </div>
+        <div class="form-group">
+            <textarea id="depoimentoInput" rows="3" placeholder="Escreva seu depoimento..."></textarea>
+        </div>
+        <button onclick="adicionarDepoimento()">Adicionar Depoimento</button>
+    </div>
+
+    <footer>
+        Todos os direitos reservados © Desenvolvido por Diego Farias - 2024
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
